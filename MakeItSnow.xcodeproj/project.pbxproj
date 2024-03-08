@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850413BD2B9BD0D300D3C7CE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 850413BC2B9BD0D300D3C7CE /* RealityKitContent */; };
+		850413BF2B9BD0D300D3C7CE /* MakeItSnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850413BE2B9BD0D300D3C7CE /* MakeItSnowApp.swift */; };
+		850413C12B9BD0D300D3C7CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850413C02B9BD0D300D3C7CE /* ContentView.swift */; };
+		850413C32B9BD0D300D3C7CE /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850413C22B9BD0D300D3C7CE /* ImmersiveView.swift */; };
+		850413C52B9BD0D400D3C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850413C42B9BD0D400D3C7CE /* Assets.xcassets */; };
+		850413C82B9BD0D400D3C7CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850413C72B9BD0D400D3C7CE /* Preview Assets.xcassets */; };
+		850413D32B9BD0D400D3C7CE /* MakeItSnowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		850413CF2B9BD0D400D3C7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850413AF2B9BD0D300D3C7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850413B62B9BD0D300D3C7CE;
+			remoteInfo = MakeItSnow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		850413B72B9BD0D300D3C7CE /* MakeItSnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItSnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850413BB2B9BD0D300D3C7CE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		850413BE2B9BD0D300D3C7CE /* MakeItSnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItSnowApp.swift; sourceTree = "<group>"; };
+		850413C02B9BD0D300D3C7CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		850413C22B9BD0D300D3C7CE /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		850413C42B9BD0D400D3C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850413C72B9BD0D400D3C7CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		850413C92B9BD0D400D3C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850413CE2B9BD0D400D3C7CE /* MakeItSnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItSnowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItSnowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		850413B42B9BD0D300D3C7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850413BD2B9BD0D300D3C7CE /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850413CB2B9BD0D400D3C7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850413AE2B9BD0D300D3C7CE = {
+			isa = PBXGroup;
+			children = (
+				850413B92B9BD0D300D3C7CE /* MakeItSnow */,
+				850413BA2B9BD0D300D3C7CE /* Packages */,
+				850413D12B9BD0D400D3C7CE /* MakeItSnowTests */,
+				850413B82B9BD0D300D3C7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		850413B82B9BD0D300D3C7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				850413B72B9BD0D300D3C7CE /* MakeItSnow.app */,
+				850413CE2B9BD0D400D3C7CE /* MakeItSnowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850413B92B9BD0D300D3C7CE /* MakeItSnow */ = {
+			isa = PBXGroup;
+			children = (
+				850413BE2B9BD0D300D3C7CE /* MakeItSnowApp.swift */,
+				850413C02B9BD0D300D3C7CE /* ContentView.swift */,
+				850413C22B9BD0D300D3C7CE /* ImmersiveView.swift */,
+				850413C42B9BD0D400D3C7CE /* Assets.xcassets */,
+				850413C92B9BD0D400D3C7CE /* Info.plist */,
+				850413C62B9BD0D400D3C7CE /* Preview Content */,
+			);
+			path = MakeItSnow;
+			sourceTree = "<group>";
+		};
+		850413BA2B9BD0D300D3C7CE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				850413BB2B9BD0D300D3C7CE /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		850413C62B9BD0D400D3C7CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				850413C72B9BD0D400D3C7CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		850413D12B9BD0D400D3C7CE /* MakeItSnowTests */ = {
+			isa = PBXGroup;
+			children = (
+				850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */,
+			);
+			path = MakeItSnowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		850413B62B9BD0D300D3C7CE /* MakeItSnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850413D62B9BD0D400D3C7CE /* Build configuration list for PBXNativeTarget "MakeItSnow" */;
+			buildPhases = (
+				850413B32B9BD0D300D3C7CE /* Sources */,
+				850413B42B9BD0D300D3C7CE /* Frameworks */,
+				850413B52B9BD0D300D3C7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeItSnow;
+			packageProductDependencies = (
+				850413BC2B9BD0D300D3C7CE /* RealityKitContent */,
+			);
+			productName = MakeItSnow;
+			productReference = 850413B72B9BD0D300D3C7CE /* MakeItSnow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		850413CD2B9BD0D400D3C7CE /* MakeItSnowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850413D92B9BD0D400D3C7CE /* Build configuration list for PBXNativeTarget "MakeItSnowTests" */;
+			buildPhases = (
+				850413CA2B9BD0D400D3C7CE /* Sources */,
+				850413CB2B9BD0D400D3C7CE /* Frameworks */,
+				850413CC2B9BD0D400D3C7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850413D02B9BD0D400D3C7CE /* PBXTargetDependency */,
+			);
+			name = MakeItSnowTests;
+			productName = MakeItSnowTests;
+			productReference = 850413CE2B9BD0D400D3C7CE /* MakeItSnowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		850413AF2B9BD0D300D3C7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					850413B62B9BD0D300D3C7CE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					850413CD2B9BD0D400D3C7CE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 850413B62B9BD0D300D3C7CE;
+					};
+				};
+			};
+			buildConfigurationList = 850413B22B9BD0D300D3C7CE /* Build configuration list for PBXProject "MakeItSnow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 850413AE2B9BD0D300D3C7CE;
+			productRefGroup = 850413B82B9BD0D300D3C7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850413B62B9BD0D300D3C7CE /* MakeItSnow */,
+				850413CD2B9BD0D400D3C7CE /* MakeItSnowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		850413B52B9BD0D300D3C7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850413C82B9BD0D400D3C7CE /* Preview Assets.xcassets in Resources */,
+				850413C52B9BD0D400D3C7CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850413CC2B9BD0D400D3C7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		850413B32B9BD0D300D3C7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850413C12B9BD0D300D3C7CE /* ContentView.swift in Sources */,
+				850413BF2B9BD0D300D3C7CE /* MakeItSnowApp.swift in Sources */,
+				850413C32B9BD0D300D3C7CE /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850413CA2B9BD0D400D3C7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850413D32B9BD0D400D3C7CE /* MakeItSnowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850413D02B9BD0D400D3C7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850413B62B9BD0D300D3C7CE /* MakeItSnow */;
+			targetProxy = 850413CF2B9BD0D400D3C7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		850413D42B9BD0D400D3C7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		850413D52B9BD0D400D3C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		850413D72B9BD0D400D3C7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakeItSnow/Preview Content\"";
+				DEVELOPMENT_TEAM = J5NW26ADGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.MakeItSnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		850413D82B9BD0D400D3C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakeItSnow/Preview Content\"";
+				DEVELOPMENT_TEAM = J5NW26ADGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.MakeItSnow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		850413DA2B9BD0D400D3C7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NW26ADGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.MakeItSnowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeItSnow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeItSnow";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		850413DB2B9BD0D400D3C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5NW26ADGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.MakeItSnowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeItSnow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeItSnow";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		850413B22B9BD0D300D3C7CE /* Build configuration list for PBXProject "MakeItSnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850413D42B9BD0D400D3C7CE /* Debug */,
+				850413D52B9BD0D400D3C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850413D62B9BD0D400D3C7CE /* Build configuration list for PBXNativeTarget "MakeItSnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850413D72B9BD0D400D3C7CE /* Debug */,
+				850413D82B9BD0D400D3C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850413D92B9BD0D400D3C7CE /* Build configuration list for PBXNativeTarget "MakeItSnowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850413DA2B9BD0D400D3C7CE /* Debug */,
+				850413DB2B9BD0D400D3C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		850413BC2B9BD0D300D3C7CE /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 850413AF2B9BD0D300D3C7CE /* Project object */;
+}
