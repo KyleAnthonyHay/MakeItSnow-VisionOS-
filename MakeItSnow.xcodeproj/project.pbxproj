@@ -37,6 +37,7 @@
 		850413C92B9BD0D400D3C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850413CE2B9BD0D400D3C7CE /* MakeItSnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItSnowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItSnowTests.swift; sourceTree = "<group>"; };
+		850413DC2B9BDA8800D3C7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		850413AE2B9BD0D300D3C7CE = {
 			isa = PBXGroup;
 			children = (
+				850413DC2B9BDA8800D3C7CE /* README.md */,
 				850413B92B9BD0D300D3C7CE /* MakeItSnow */,
 				850413BA2B9BD0D300D3C7CE /* Packages */,
 				850413D12B9BD0D400D3C7CE /* MakeItSnowTests */,
