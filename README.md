@@ -1,6 +1,6 @@
 #  Make It Snow!❄️
 
-![screenshot](Images/Screenshot.png)
+![screenshot](./Images/Screenshot.png)
 
 ## Overview
 
