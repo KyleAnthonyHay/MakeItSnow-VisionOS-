@@ -13,6 +13,8 @@ struct MakeItSnowApp: App {
         WindowGroup {
             ContentView()
         }
+        .defaultSize(width: 400, height: 20)
+        .windowStyle(.plain)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
