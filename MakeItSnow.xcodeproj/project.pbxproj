@@ -14,6 +14,7 @@
 		850413C52B9BD0D400D3C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850413C42B9BD0D400D3C7CE /* Assets.xcassets */; };
 		850413C82B9BD0D400D3C7CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850413C72B9BD0D400D3C7CE /* Preview Assets.xcassets */; };
 		850413D32B9BD0D400D3C7CE /* MakeItSnowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */; };
+		850413E12B9BDDD400D3C7CE /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 850413E02B9BDDD400D3C7CE /* ScreenShot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		850413CE2B9BD0D400D3C7CE /* MakeItSnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItSnowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItSnowTests.swift; sourceTree = "<group>"; };
 		850413DC2B9BDA8800D3C7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		850413E02B9BDDD400D3C7CE /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		850413AE2B9BD0D300D3C7CE = {
 			isa = PBXGroup;
 			children = (
+				850413DD2B9BDD6900D3C7CE /* Images */,
 				850413DC2B9BDA8800D3C7CE /* README.md */,
 				850413B92B9BD0D300D3C7CE /* MakeItSnow */,
 				850413BA2B9BD0D300D3C7CE /* Packages */,
@@ -114,6 +117,14 @@
 				850413D22B9BD0D400D3C7CE /* MakeItSnowTests.swift */,
 			);
 			path = MakeItSnowTests;
+			sourceTree = "<group>";
+		};
+		850413DD2B9BDD6900D3C7CE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				850413E02B9BDDD400D3C7CE /* ScreenShot.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				850413C82B9BD0D400D3C7CE /* Preview Assets.xcassets in Resources */,
 				850413C52B9BD0D400D3C7CE /* Assets.xcassets in Resources */,
+				850413E12B9BDDD400D3C7CE /* ScreenShot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,7 @@
 #  Make It Snow!❄️
 
+![screenshot](Images/Screenshot.png)
+
 ## Overview
 
 SnowAR is an innovative augmented reality (AR) application developed for VisionOS, using Swift+ARKit. It transforms your immediate environment into a winter wonderland with the simple press of a toggle button. 
