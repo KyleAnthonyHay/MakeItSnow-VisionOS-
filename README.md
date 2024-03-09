@@ -1,6 +1,6 @@
 #  Make It Snow!❄️
 
-![screenshot](Screenshot.png)
+<img width="1089" alt="ScreenShot" src="https://github.com/KyleAnthonyHay/MakeItSnow-VisionOS-/assets/100221659/633883d9-0b35-4fd2-9c2f-535fd1b60d2d">
 
 ## Overview
 

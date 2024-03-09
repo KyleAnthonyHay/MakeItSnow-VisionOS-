@@ -66,7 +66,6 @@
 			children = (
 				850413DD2B9BDD6900D3C7CE /* Images */,
 				850413DC2B9BDA8800D3C7CE /* README.md */,
-				850413E02B9BDDD400D3C7CE /* ScreenShot.png */,
 				850413B92B9BD0D300D3C7CE /* MakeItSnow */,
 				850413BA2B9BD0D300D3C7CE /* Packages */,
 				850413D12B9BD0D400D3C7CE /* MakeItSnowTests */,
@@ -123,6 +122,7 @@
 		850413DD2B9BDD6900D3C7CE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				850413E02B9BDDD400D3C7CE /* ScreenShot.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
